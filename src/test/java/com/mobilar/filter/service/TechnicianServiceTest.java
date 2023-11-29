@@ -49,7 +49,7 @@ public class TechnicianServiceTest {
     }
 
     @Test
-    public void givenLast_whenGettingListOfUsers_thenCorrect() {
+    public void testCases() {
         List<Technician> results =technicianService.getListOfTechniciansWithFilter(null);
         assertThat("case1",results.contains(technician_1)&&results.contains(technician_2)&&results.contains(technician_3));
 
